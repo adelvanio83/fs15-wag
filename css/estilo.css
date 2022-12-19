@@ -1,10 +1,56 @@
+body{
+    background:gainsboro;
+}
+
 *{
     padding: 0;
-    margin: 0;
+    margin:0;
+    font-family: 'Inter', sans-serif;
 }
-#aviso-retratil{
-    background-color: #faab43;
+
+#aviso-retratil{ 
+    background-color:#FAAB43; 
+    width:100%; 
+    height:56px; 
+    display:flex; 
+    align-items:center; 
+    justify-content:center; 
+    padding: 10px 0;
+    gap:1%; 
 }
+
+#aviso-retratil img{
+    margin-right: 20px;
+}
+
 #aviso-retratil p{
-    color: #ffffff;
+    color: white;
+}
+
+header{
+    padding: 0 30px;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav > div{
+    display: flex;
+    align-items: center;
+}
+
+header nav > div:first-child ul{
+    display: flex;
+}
+
+
+header nav> div:last-child ul{
+    display: none;
+}
+
+header nav .header.select-title{
+    display: flex;
 }
